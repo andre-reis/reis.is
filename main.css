@@ -1,0 +1,264 @@
+/* @import url("http://fonts.googleapis.com/css?family=Open+Sans"); */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Open Sans", Tahoma, sans-serif;
+  background-color: #ffffff;
+  font-size: 16px;
+}
+
+#wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+#container {
+  min-height: 100%;
+  position: relative;
+  /* padding-bottom: 185px; */
+}
+
+#header .row {
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  z-index: 1;
+  width: 100%;
+  background-color: rgba(5, 20, 20, 0.9);
+  /* padding-left: 10%; */
+  position: fixed;
+}
+
+.post {
+  justify-content: right;
+}
+
+.nav-pills > li > a {
+  border-radius: 0px;
+  color: #888888;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #aaaaaa;
+}
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+  /* width: 80%; */
+}
+
+.jumbotron {
+  padding-left: 0;
+  padding-right: 0;
+  background-color: #006b6b;
+  background-image: url("imgs/background.jpg");
+  background-size: cover;
+  margin-bottom: 0px;
+  text-shadow: 0px 0px 5px #000000;
+  box-shadow: 0px 0px 10px #000000;
+}
+
+.jumbotron .small-name {
+  font-size: 32px;
+}
+
+.jumbotron h1 {
+  color: #ffffff;
+  text-align: center;
+}
+
+.jumbotron .links {
+  color: #fff;
+  text-align: center;
+}
+
+.jumbotron .links a {
+  color: rgb(140, 222, 255);
+}
+
+.jumbotron h3 {
+  color: #cccccc;
+  font-size: 21px;
+  text-align: center;
+}
+
+.jumbotron p {
+  color: #aaaaaa;
+  font-size: 18px;
+  text-align: center;
+}
+
+.jumbotron .profile-image {
+  padding-top: 50px;
+}
+
+.jumbotron .profile-image img {
+  max-height: 150px;
+  max-width: 150px;
+}
+
+#projects {
+  padding-top: 35px;
+  margin-top: -35px;
+  padding-bottom: 50px;
+}
+
+#projects > .row {
+  padding-top: 25px;
+}
+
+#projects .tittle .row {
+  /* padding-left: 10%; */
+}
+
+#projects .info {
+  text-align: center;
+  /* padding-top: 25px; */
+  padding-bottom: 25px;
+  min-width: 200px;
+}
+
+#projects img {
+  width: 200px;
+  height: 200px;
+  box-shadow: 0px 0px 10px #000000;
+}
+
+#curriculum-vitae {
+  padding-top: 35px;
+  margin-top: -35px;
+  text-align: justify;
+}
+
+#curriculum-vitae li {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#curriculum-vitae li .art {
+  /* font-size: 18px;
+  font-weight: bold; */
+  color: #aaaaaa;
+  display: inline;
+}
+
+#curriculum-vitae .row {
+  background-color: #ededed;
+  /* padding-left: 10%; */
+}
+
+/* #curriculum-vitae .row .col-md-6 {
+  padding-bottom: 50px;
+} */
+
+#curriculum-vitae .download {
+  /* padding-right: 10%; */
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 20px;
+}
+
+#curriculum-vitae .download img {
+  /* max-height: 50px; */
+  max-width: 15%;
+}
+
+#curriculum-vitae .download span {
+  font-size: 32px;
+}
+
+
+
+#curriculum-vitae h1 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  /* font-size: 64px; */
+}
+#curriculum-vitae h3 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  /* font-size: 64px; */
+}
+
+.article {
+  padding-bottom: 100px;
+}
+
+.article .photo {
+  max-width: 100%;
+}
+
+.article .tittle .image {
+  /* align-content: center; */
+  /* align-items: center; */
+  /* display: inline-block;
+  vertical-align: middle; */
+  /* display: inline-block; */
+  /* height: 100%; */
+  vertical-align: middle;
+  text-align: center;
+
+}
+
+.article p {
+  text-align: justify;
+}
+
+.article .tittle img {
+  max-width: 100%;
+  max-height: 150px;
+  /* vertical-align: middle; */
+  padding: 5%;
+}
+
+.article .google-link {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.article .google{
+  max-height: 100px;
+}
+
+.contacts .row {
+  /* padding-left: 10%; */
+  background-color: #111111;
+}
+
+.contacts h3 {
+  color: #aaaaaa;
+}
+
+.contacts p {
+  color: #888888;
+}
+
+#footer {
+  clear: both;
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+}
+
+/* #footer .contacts .row {
+		height: 150px;
+} */
+
+/* #footer #copyrights .row {
+		height: 35px;
+} */
+
+#copyrights .row {
+  background-color: #222222;
+  text-align: center;
+  color: #888888;
+  padding-top: 5px;
+}
